@@ -4,14 +4,14 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Steppers.xcscheme</key>
+		<key>Pods-Steppers.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Pods-SteppersTests.xcscheme</key>
+		<key>Pods-SteppersTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
