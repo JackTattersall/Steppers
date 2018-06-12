@@ -11,26 +11,23 @@ import XCTest
 
 class SteppersTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testMealInitializationSucceeds() {
+        let zeroRatingMeal = Meal.init(name: "Food", photo: nil, rating: 0)
+        XCTAssertNotNil(zeroRatingMeal)
+        
+        let positiveRatingMeal = Meal.init(name: "Food", photo: nil, rating: 5)
+        XCTAssertNotNil(positiveRatingMeal)
     }
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-    
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testMealInitializationFails() {
+        let negativeRatingMeal = Meal.init(name: "Food", photo: nil, rating: -4)
+        XCTAssertNil(negativeRatingMeal)
+        
+        let noNameMeal = Meal.init(name: "", photo: nil, rating: 3)
+        XCTAssertNil(noNameMeal)
+        
+        let tooLargeRatingMeal = Meal.init(name: "Food", photo: nil, rating: 9)
+        XCTAssertNil(tooLargeRatingMeal)
     }
     
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1C3A94B66D401D165BE0E12 /* Pods_Steppers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE79394AB057132EAA6E0EA4 /* Pods_Steppers.framework */; };
 		C31E040D20C6CC6100C65C6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E040C20C6CC6100C65C6F /* AppDelegate.swift */; };
 		C31E040F20C6CC6100C65C6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E040E20C6CC6100C65C6F /* ViewController.swift */; };
 		C31E041220C6CC6100C65C6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31E041020C6CC6100C65C6F /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		C31E041720C6CC6300C65C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31E041620C6CC6300C65C6F /* Assets.xcassets */; };
 		C31E041A20C6CC6300C65C6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31E041820C6CC6300C65C6F /* LaunchScreen.storyboard */; };
 		C31E042520C6CC6300C65C6F /* SteppersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E042420C6CC6300C65C6F /* SteppersTests.swift */; };
+		C31E043220C71D7D00C65C6F /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E043120C71D7D00C65C6F /* RatingControl.swift */; };
+		C31E043420C72D8600C65C6F /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31E043320C72D8600C65C6F /* Meal.swift */; };
+		FF326BB1E1B220209505463A /* Pods_SteppersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7AA548CBDB21DBD04CEE61 /* Pods_SteppersTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A7AA548CBDB21DBD04CEE61 /* Pods_SteppersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SteppersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E698E05B20926079A6C64BE /* Pods-Steppers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Steppers.release.xcconfig"; path = "Pods/Target Support Files/Pods-Steppers/Pods-Steppers.release.xcconfig"; sourceTree = "<group>"; };
+		952CC299639091A74E31B0A7 /* Pods-SteppersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppersTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SteppersTests/Pods-SteppersTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE04EF079874344F8BF64DF6 /* Pods-SteppersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SteppersTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SteppersTests/Pods-SteppersTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C31E040920C6CC6100C65C6F /* Steppers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steppers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31E040C20C6CC6100C65C6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C31E040E20C6CC6100C65C6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +46,10 @@
 		C31E042020C6CC6300C65C6F /* SteppersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteppersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31E042420C6CC6300C65C6F /* SteppersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteppersTests.swift; sourceTree = "<group>"; };
 		C31E042620C6CC6300C65C6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31E043120C71D7D00C65C6F /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		C31E043320C72D8600C65C6F /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		EC08F8F36521B50813845DF9 /* Pods-Steppers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Steppers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Steppers/Pods-Steppers.debug.xcconfig"; sourceTree = "<group>"; };
+		EE79394AB057132EAA6E0EA4 /* Pods_Steppers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Steppers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1C3A94B66D401D165BE0E12 /* Pods_Steppers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +65,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF326BB1E1B220209505463A /* Pods_SteppersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		707A933D76D951F77413B5DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE79394AB057132EAA6E0EA4 /* Pods_Steppers.framework */,
+				2A7AA548CBDB21DBD04CEE61 /* Pods_SteppersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C31E040020C6CC6100C65C6F = {
 			isa = PBXGroup;
 			children = (
 				C31E040B20C6CC6100C65C6F /* Steppers */,
 				C31E042320C6CC6300C65C6F /* SteppersTests */,
 				C31E040A20C6CC6100C65C6F /* Products */,
+				DE0B0D69014B388A270A3B51 /* Pods */,
+				707A933D76D951F77413B5DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +106,13 @@
 			children = (
 				C31E040C20C6CC6100C65C6F /* AppDelegate.swift */,
 				C31E040E20C6CC6100C65C6F /* ViewController.swift */,
+				C31E043120C71D7D00C65C6F /* RatingControl.swift */,
 				C31E041020C6CC6100C65C6F /* Main.storyboard */,
 				C31E041620C6CC6300C65C6F /* Assets.xcassets */,
 				C31E041820C6CC6300C65C6F /* LaunchScreen.storyboard */,
 				C31E041B20C6CC6300C65C6F /* Info.plist */,
 				C31E041320C6CC6100C65C6F /* Steppers.xcdatamodeld */,
+				C31E043320C72D8600C65C6F /* Meal.swift */,
 			);
 			path = Steppers;
 			sourceTree = "<group>";
@@ -99,6 +126,17 @@
 			path = SteppersTests;
 			sourceTree = "<group>";
 		};
+		DE0B0D69014B388A270A3B51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC08F8F36521B50813845DF9 /* Pods-Steppers.debug.xcconfig */,
+				5E698E05B20926079A6C64BE /* Pods-Steppers.release.xcconfig */,
+				AE04EF079874344F8BF64DF6 /* Pods-SteppersTests.debug.xcconfig */,
+				952CC299639091A74E31B0A7 /* Pods-SteppersTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +144,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C31E042920C6CC6300C65C6F /* Build configuration list for PBXNativeTarget "Steppers" */;
 			buildPhases = (
+				BFAB8C3E1E00FCCCEF7B22EC /* [CP] Check Pods Manifest.lock */,
 				C31E040520C6CC6100C65C6F /* Sources */,
 				C31E040620C6CC6100C65C6F /* Frameworks */,
 				C31E040720C6CC6100C65C6F /* Resources */,
@@ -123,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C31E042C20C6CC6300C65C6F /* Build configuration list for PBXNativeTarget "SteppersTests" */;
 			buildPhases = (
+				6439C5568EBB396FC1056DDC /* [CP] Check Pods Manifest.lock */,
 				C31E041C20C6CC6300C65C6F /* Sources */,
 				C31E041D20C6CC6300C65C6F /* Frameworks */,
 				C31E041E20C6CC6300C65C6F /* Resources */,
@@ -149,6 +189,11 @@
 				TargetAttributes = {
 					C31E040820C6CC6100C65C6F = {
 						CreatedOnToolsVersion = 9.4;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 					C31E041F20C6CC6300C65C6F = {
 						CreatedOnToolsVersion = 9.4;
@@ -195,11 +240,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6439C5568EBB396FC1056DDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SteppersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFAB8C3E1E00FCCCEF7B22EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Steppers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C31E040520C6CC6100C65C6F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C31E043420C72D8600C65C6F /* Meal.swift in Sources */,
+				C31E043220C71D7D00C65C6F /* RatingControl.swift in Sources */,
 				C31E040F20C6CC6100C65C6F /* ViewController.swift in Sources */,
 				C31E040D20C6CC6100C65C6F /* AppDelegate.swift in Sources */,
 				C31E041520C6CC6100C65C6F /* Steppers.xcdatamodeld in Sources */,
@@ -360,10 +446,13 @@
 		};
 		C31E042A20C6CC6300C65C6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC08F8F36521B50813845DF9 /* Pods-Steppers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25U9V73MP7;
 				INFOPLIST_FILE = Steppers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,16 +460,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tatts.Steppers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C31E042B20C6CC6300C65C6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E698E05B20926079A6C64BE /* Pods-Steppers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25U9V73MP7;
 				INFOPLIST_FILE = Steppers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,12 +480,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = tatts.Steppers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		C31E042D20C6CC6300C65C6F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE04EF079874344F8BF64DF6 /* Pods-SteppersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +507,7 @@
 		};
 		C31E042E20C6CC6300C65C6F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 952CC299639091A74E31B0A7 /* Pods-SteppersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
